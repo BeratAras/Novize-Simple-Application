@@ -1,0 +1,44 @@
+body{
+	font-family: Poppins-Bold;
+	font-size: 13px;
+}
+
+@font-face {
+	font-family: Poppins-Bold;
+	src: url('../fonts/Poppins-Bold.ttf')
+}
+@font-face {
+	font-family: Poppins-Light;
+	src: url('../fonts/Poppins-Light.ttf')
+}
+
+.avatarheader {
+	width: 64px;
+	height: 64px;
+	min-width: 64px;
+	border-radius: 100%;
+	margin-right: 6px;
+	object-position: center;
+	object-fit: contain;
+	margin-left: 10px;
+}
+
+.aetiketi{
+	text-decoration-style: none;
+	text-decoration: none;
+}
+
+.votebutton{
+	height: 28px;
+	width: 75px;
+}
+
+.likebutton{
+	height: 40px;
+	width: 40px;
+}
+
+.likebuttonkucuk{
+	height: 20px;
+	width: 20px;
+}

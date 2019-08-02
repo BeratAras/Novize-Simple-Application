@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/Poppins-Bold.ttf')
+}
+@font-face {
+  font-family: Poppins-Light;
+  src: url('../fonts/Poppins-Light.ttf')
+}
+
+.rating {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+  font-family: Poppins-Bold;
+}
+
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.dislike:hover,
+.like:hover {
+ /*color: #2EBDD1;*/
+ color: #019B8C;
+ transition: all .2s ease-in-out;
+ transform: scale(1.1);
+}
+
+.comment,
+.comments {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.comments:hover,
+.comment:hover {
+ /*color: #2EBDD1;*/
+ color: #019B8C;
+ transition: all .2s ease-in-out;
+ transform: scale(1.1);
+}
+
+.active {
+  color: #2EBDD1;
+}
+
+
